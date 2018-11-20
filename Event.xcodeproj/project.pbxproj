@@ -12,6 +12,16 @@
 		DD21DFE221A155CB009311E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD21DFE021A155CB009311E1 /* Main.storyboard */; };
 		DD21DFE421A155CC009311E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD21DFE321A155CC009311E1 /* Assets.xcassets */; };
 		DD21DFE721A155CC009311E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD21DFE521A155CC009311E1 /* LaunchScreen.storyboard */; };
+		DD21DFEF21A15658009311E1 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD21DFEE21A15658009311E1 /* LoginController.swift */; };
+		DD8F5CA121A15F3900710834 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F5CA021A15F3900710834 /* SignupController.swift */; };
+		DD8F5CA321A1614B00710834 /* LupaPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F5CA221A1614B00710834 /* LupaPasswordController.swift */; };
+		DD8F5CA521A161D200710834 /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F5CA421A161D200710834 /* MainMenuController.swift */; };
+		DD8F5CA721A1637300710834 /* DaftarEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F5CA621A1637300710834 /* DaftarEventController.swift */; };
+		DD8F5CA921A1639500710834 /* CariEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F5CA821A1639500710834 /* CariEventController.swift */; };
+		DD8F5CAB21A163AD00710834 /* EditEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F5CAA21A163AD00710834 /* EditEventController.swift */; };
+		DD8F5CAD21A163C700710834 /* HapusEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F5CAC21A163C700710834 /* HapusEventController.swift */; };
+		DD8F5CAF21A163D300710834 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F5CAE21A163D300710834 /* ProfileController.swift */; };
+		DD8F5CB121A168C600710834 /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F5CB021A168C600710834 /* EditProfileController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		DD21DFE321A155CC009311E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD21DFE621A155CC009311E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD21DFE821A155CC009311E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD21DFEE21A15658009311E1 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		DD8F5CA021A15F3900710834 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		DD8F5CA221A1614B00710834 /* LupaPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LupaPasswordController.swift; sourceTree = "<group>"; };
+		DD8F5CA421A161D200710834 /* MainMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
+		DD8F5CA621A1637300710834 /* DaftarEventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarEventController.swift; sourceTree = "<group>"; };
+		DD8F5CA821A1639500710834 /* CariEventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CariEventController.swift; sourceTree = "<group>"; };
+		DD8F5CAA21A163AD00710834 /* EditEventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventController.swift; sourceTree = "<group>"; };
+		DD8F5CAC21A163C700710834 /* HapusEventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapusEventController.swift; sourceTree = "<group>"; };
+		DD8F5CAE21A163D300710834 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		DD8F5CB021A168C600710834 /* EditProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +76,17 @@
 			children = (
 				DD21DFDC21A155CB009311E1 /* AppDelegate.swift */,
 				DD21DFDE21A155CB009311E1 /* ViewController.swift */,
+				DD21DFEE21A15658009311E1 /* LoginController.swift */,
+				DD8F5CA021A15F3900710834 /* SignupController.swift */,
 				DD21DFE021A155CB009311E1 /* Main.storyboard */,
+				DD8F5CB021A168C600710834 /* EditProfileController.swift */,
+				DD8F5CAE21A163D300710834 /* ProfileController.swift */,
+				DD8F5CAC21A163C700710834 /* HapusEventController.swift */,
+				DD8F5CAA21A163AD00710834 /* EditEventController.swift */,
+				DD8F5CA821A1639500710834 /* CariEventController.swift */,
+				DD8F5CA621A1637300710834 /* DaftarEventController.swift */,
+				DD8F5CA421A161D200710834 /* MainMenuController.swift */,
+				DD8F5CA221A1614B00710834 /* LupaPasswordController.swift */,
 				DD21DFE321A155CC009311E1 /* Assets.xcassets */,
 				DD21DFE521A155CC009311E1 /* LaunchScreen.storyboard */,
 				DD21DFE821A155CC009311E1 /* Info.plist */,
@@ -135,8 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8F5CAB21A163AD00710834 /* EditEventController.swift in Sources */,
 				DD21DFDF21A155CB009311E1 /* ViewController.swift in Sources */,
+				DD8F5CA921A1639500710834 /* CariEventController.swift in Sources */,
+				DD21DFEF21A15658009311E1 /* LoginController.swift in Sources */,
+				DD8F5CA321A1614B00710834 /* LupaPasswordController.swift in Sources */,
+				DD8F5CB121A168C600710834 /* EditProfileController.swift in Sources */,
 				DD21DFDD21A155CB009311E1 /* AppDelegate.swift in Sources */,
+				DD8F5CA121A15F3900710834 /* SignupController.swift in Sources */,
+				DD8F5CAF21A163D300710834 /* ProfileController.swift in Sources */,
+				DD8F5CA521A161D200710834 /* MainMenuController.swift in Sources */,
+				DD8F5CAD21A163C700710834 /* HapusEventController.swift in Sources */,
+				DD8F5CA721A1637300710834 /* DaftarEventController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Kelompok-D.Event";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Kelompok-D.Event";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
